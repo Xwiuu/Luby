@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  /* Nossas cores premium da Luby */
+  --color-luby-nude: #F7EDE2;
+  --color-luby-rose: #F4C2C2;
+  --color-luby-gold: #D4AF37;
+  
+  /* Nossas fontes */
+  --font-sans: "DM Sans", "Inter", sans-serif;
+  --font-brielle: "Brielle", "Playfair Display", serif;
+}
+
+/* Ajustes globais de reset e scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-luby-nude);
+  color: #111827; /* gray-900 */
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

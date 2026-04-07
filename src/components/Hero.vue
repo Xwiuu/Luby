@@ -29,7 +29,7 @@ onMounted(() => {
 
 <template>
   <section class="relative min-h-[80vh] lg:min-h-screen flex items-center bg-[#FFF5F2] overflow-hidden pt-20 pb-16 sm:pb-20">
-    <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#F4C2C2]/20 to-transparent"></div>
+    <div class="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-[#F4C2C2]/20 to-transparent"></div>
 
     <div class="container mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
       
@@ -51,17 +51,17 @@ onMounted(() => {
       </div>
 
       <div class="col-span-1 lg:col-span-6 mt-10 lg:mt-0 relative flex justify-center lg:justify-end">
-        <div ref="imageRef" class="relative w-full max-w-xl sm:max-w-2xl lg:max-w-xl aspect-[3/4] rounded-[4rem] overflow-hidden shadow-[-40px_40px_80px_rgba(244,194,194,0.4)] border-8 border-white">
+        <div ref="imageRef" class="relative w-full max-w-xl sm:max-w-2xl lg:max-w-xl aspect-3/4 rounded-[4rem] overflow-hidden shadow-[-40px_40px_80px_rgba(244,194,194,0.4)] border-8 border-white">
           <img 
             src="../assets/hero.jpeg" 
             alt="Revendedora Luby" 
             class="w-full h-full object-cover"
           >
           
-          <div class="absolute inset-0 bg-gradient-to-t from-[#F4C2C2]/20 to-transparent mix-blend-multiply"></div>
+          <div class="absolute inset-0 bg-linear-to-t from-[#F4C2C2]/20 to-transparent mix-blend-multiply"></div>
         </div>
 
-        <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-left-12 bg-white p-5 sm:p-6 rounded-3xl shadow-xl flex items-center gap-4 animate-bounce-slow max-w-[calc(100%-2rem)] md:max-w-none">
+        <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 md:-left-12 bg-white p-5 sm:p-6 rounded-3xl shadow-xl flex items-center gap-4 animate-bounce-slow max-w-[calc(100%-2rem)] md:max-w-none">
           <div class="w-12 h-12 bg-luby-gold rounded-full flex items-center justify-center text-white font-bold italic">L</div>
           <div>
             <p class="text-[10px] font-mono uppercase text-gray-400">Qualidade</p>

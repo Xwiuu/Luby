@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -35,9 +35,9 @@ onMounted(() => {
       </div>
 
       <div class="benefits-grid grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8">
-        <div class="benefit-card md:col-span-7 group relative rounded-[2.5rem] bg-white border border-gray-100 overflow-hidden flex flex-col justify-end min-h-[360px] sm:min-h-[420px] shadow-[0_28px_80px_rgba(15,23,42,0.08)] transition-all duration-500 hover:-translate-y-1">
+        <div class="benefit-card md:col-span-7 group relative rounded-[2.5rem] bg-white border border-gray-100 overflow-hidden flex flex-col justify-end min-h-90 sm:min-h-105 shadow-[0_28px_80px_rgba(15,23,42,0.08)] transition-all duration-500 hover:-translate-y-1">
           <img src="../assets/qualidade.jpeg" alt="Detalhe dourado de joia Luby" class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-linear-to-t from-black/85 via-black/20 to-transparent"></div>
           <div class="relative z-10 p-6 sm:p-8 lg:p-10 text-white">
             <span class="inline-block mb-4 text-[10px] uppercase tracking-[0.3em] text-white/70">Acabamento Premium</span>
             <h3 class="text-3xl sm:text-4xl font-brielle mb-4">Qualidade Absoluta</h3>
@@ -47,7 +47,7 @@ onMounted(() => {
           </div>
         </div>
 
-        <div class="benefit-card md:col-span-5 group relative rounded-[2.5rem] bg-[#F4C2C2] p-6 sm:p-8 lg:p-10 flex flex-col justify-between min-h-[340px] sm:min-h-[420px] shadow-2xl shadow-[#F4C2C2]/20 border border-white/40 transition-all duration-500 hover:-translate-y-1">
+        <div class="benefit-card md:col-span-5 group relative rounded-[2.5rem] bg-[#F4C2C2] p-6 sm:p-8 lg:p-10 flex flex-col justify-between min-h-85 sm:min-h-105 shadow-2xl shadow-[#F4C2C2]/20 border border-white/40 transition-all duration-500 hover:-translate-y-1">
           <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/20 flex items-center justify-center text-white backdrop-blur-md">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" y1="10" y2="10"/></svg>
           </div>
@@ -59,16 +59,16 @@ onMounted(() => {
           </div>
         </div>
 
-        <div class="benefit-card md:col-span-5 group relative rounded-[2.5rem] bg-white border border-gray-100 overflow-hidden min-h-[320px] sm:min-h-[360px] shadow-lg transition-all duration-500 hover:-translate-y-1">
+        <div class="benefit-card md:col-span-5 group relative rounded-[2.5rem] bg-white border border-gray-100 overflow-hidden min-h-80 sm:min-h-90 shadow-lg transition-all duration-500 hover:-translate-y-1">
           <img src="../assets/Prata.png" alt="Galvânica e Fábrica Própria Luby" class="absolute inset-0 w-full h-full object-cover object-center opacity-90 group-hover:opacity-100 transition-all duration-500">
           <div class="absolute top-8 left-8">
             <span class="bg-luby-gold text-white text-[10px] px-3 py-1 rounded-full uppercase tracking-widest font-bold">Galvânica & Fábrica Própria</span>
           </div>
         </div>
 
-        <div class="benefit-card md:col-span-7 group relative rounded-[2.5rem] bg-[#1A1A1A] p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row items-start md:items-center min-h-[360px] shadow-2xl shadow-black/20 transition-all duration-500 hover:-translate-y-1">
+        <div class="benefit-card md:col-span-7 group relative rounded-[2.5rem] bg-[#1A1A1A] p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row items-start md:items-center min-h-90 shadow-2xl shadow-black/20 transition-all duration-500 hover:-translate-y-1">
           <div class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start md:items-center">
-            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-luby-gold/10 border border-luby-gold/20 flex items-center justify-center text-luby-gold flex-shrink-0">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-luby-gold/10 border border-luby-gold/20 flex items-center justify-center text-luby-gold shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div class="text-white">

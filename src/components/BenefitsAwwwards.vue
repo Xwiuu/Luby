@@ -1,31 +1,27 @@
 <script setup lang="ts">
-import { onMounted, ref, onUnmounted } from "vue";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { onMounted, ref, onUnmounted } from 'vue'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger)
 
-// Refs de segurança
-const containerRef = ref(null);
-const gridRef = ref(null);
-let ctx: any;
+// 1. Definimos o tipo HTMLElement para o TS não reclamar do null
+const containerRef = ref<HTMLElement | null>(null)
+const gridRef = ref<HTMLElement | null>(null)
+let ctx: gsap.Context
 
 onMounted(() => {
-  // 1. O segredo: Pequeno delay para garantir que o DOM e as imagens foram processados
-  setTimeout(() => {
-    // 2. Usamos o context para isolar a busca de elementos apenas dentro deste componente
-    ctx = gsap.context(() => {
-      // Buscamos os elementos de forma segura
-      const cards = gsap.utils.toArray(".benefit-card");
+  // 2. Checagem de segurança: Se as refs não existirem, a gente nem tenta rodar
+  if (!containerRef.value || !gridRef.value) return
 
+  setTimeout(() => {
+    // 3. O 'as HTMLElement' garante ao TS que o valor não é nulo aqui dentro
+    ctx = gsap.context(() => {
+      const cards = gsap.utils.toArray('.benefit-card')
+      
       if (cards.length > 0) {
-        // 3. Usamos fromTo para garantir que o estado inicial (0) e final (1) sejam forçados
-        gsap.fromTo(
-          cards,
-          {
-            y: 50,
-            opacity: 0,
-          },
+        gsap.fromTo(cards, 
+          { y: 50, opacity: 0 }, 
           {
             y: 0,
             opacity: 1,
@@ -33,27 +29,23 @@ onMounted(() => {
             stagger: 0.15,
             ease: "power3.out",
             scrollTrigger: {
-              trigger: gridRef.value,
+              trigger: gridRef.value as HTMLElement, // Cast de segurança
               start: "top 85%",
               toggleActions: "play none none none",
-              // Força o ScrollTrigger a recalcular tudo após carregar
-              onEnter: () => ScrollTrigger.refresh(),
-            },
-          },
-        );
-      } else {
-        console.warn("GSAP: Cards não encontrados no DOM ainda.");
+              onEnter: () => ScrollTrigger.refresh()
+            }
+          }
+        )
       }
-    }, containerRef.value);
-
-    // 4. Recalcula as posições de scroll após o render
-    ScrollTrigger.refresh();
-  }, 100); // 100ms de "respiro" para o navegador
-});
+    }, containerRef.value as HTMLElement) // Cast de segurança
+    
+    ScrollTrigger.refresh()
+  }, 100)
+})
 
 onUnmounted(() => {
-  if (ctx) ctx.revert();
-});
+  if (ctx) ctx.revert()
+})
 </script>
 
 <template>

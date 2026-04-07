@@ -40,9 +40,9 @@ onMounted(() => {
           <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
           <div class="relative z-10 p-6 sm:p-8 lg:p-10 text-white">
             <span class="inline-block mb-4 text-[10px] uppercase tracking-[0.3em] text-white/70">Acabamento Premium</span>
-            <h3 class="text-3xl sm:text-4xl font-brielle mb-4">Qualidade Premium</h3>
+            <h3 class="text-3xl sm:text-4xl font-brielle mb-4">Qualidade Absoluta</h3>
             <p class="text-white/75 text-sm sm:text-base max-w-full sm:max-w-lg leading-relaxed">
-              Banho em Ouro 18k com proteção antialérgica e acabamento impecável para durabilidade e confiança em cada peça.
+              Banho em Ouro 18k com proteção antialérgica e acabamento impecável, garantido por nossa infraestrutura de ponta.
             </p>
           </div>
         </div>
@@ -54,15 +54,15 @@ onMounted(() => {
           <div class="text-white mt-6 sm:mt-0">
             <h3 class="text-2xl sm:text-3xl font-brielle mb-3 italic">Consignado de Verdade.</h3>
             <p class="text-white/85 text-sm sm:text-base leading-relaxed">
-              Receba as semijoias e só pague o que vender, com processos simples, sem antecipação e apoio em cada etapa.
+              Receba as semijoias e só pague o que vender. Modelo de risco zero para você focar no que importa: seu crescimento.
             </p>
           </div>
         </div>
 
         <div class="benefit-card md:col-span-5 group relative rounded-[2.5rem] bg-white border border-gray-100 overflow-hidden min-h-[320px] sm:min-h-[360px] shadow-lg transition-all duration-500 hover:-translate-y-1">
-          <img src="../assets/Prata.png" alt="Coleção de semijoias Prata 925 em destaque" class="absolute inset-0 w-full h-full object-cover object-center opacity-90 group-hover:opacity-100 transition-all duration-500">
+          <img src="../assets/Prata.png" alt="Galvânica e Fábrica Própria Luby" class="absolute inset-0 w-full h-full object-cover object-center opacity-90 group-hover:opacity-100 transition-all duration-500">
           <div class="absolute top-8 left-8">
-            <span class="bg-gray-950 text-white text-[10px] px-3 py-1 rounded-full uppercase tracking-widest">Coleção Prata 925</span>
+            <span class="bg-luby-gold text-white text-[10px] px-3 py-1 rounded-full uppercase tracking-widest font-bold">Galvânica & Fábrica Própria</span>
           </div>
         </div>
 
@@ -72,9 +72,9 @@ onMounted(() => {
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div class="text-white">
-              <h3 class="text-2xl sm:text-3xl font-brielle mb-2 text-luby-gold">Apoio em cada venda</h3>
+              <h3 class="text-2xl sm:text-3xl font-brielle mb-2 text-luby-gold">Agilidade & Lançamentos</h3>
               <p class="text-gray-400 text-sm md:text-base leading-relaxed max-w-full sm:max-w-md">
-                Fotos profissionais para Instagram, catálogo digital atualizado e treinamento de vendas exclusivos para você atender clientes com mais confiança.
+                Lançamentos toda semana e agilidade total em consertos ou atualizações. Nossa produção própria garante que sua vitrine nunca pare de brilhar.
               </p>
             </div>
           </div>

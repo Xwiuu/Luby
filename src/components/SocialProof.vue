@@ -46,7 +46,6 @@ onMounted(() => {
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
           </span>
-          <span class="text-gray-900 font-mono text-sm tracking-widest uppercase font-semibold">+500 Revendedoras Ativas</span>
         </div>
         
         <h2 class="text-5xl md:text-6xl font-brielle text-gray-900 leading-tight mb-8">

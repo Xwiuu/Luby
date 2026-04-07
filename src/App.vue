@@ -8,6 +8,7 @@ import SocialProof from './components/SocialProof.vue'
 import FinalCta from './components/FinalCta.vue'
 import Faq from './components/Faq.vue'
 import Footer from './components/Footer.vue'
+import OurStory from './components/OurStory.vue'
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import Footer from './components/Footer.vue'
     
     <main>
       <Hero id="inicio" />
+
+      <OurStory id="nossa-historia" />
       
       <BenefitsAwwwards id="beneficios" />
       

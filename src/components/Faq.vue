@@ -105,7 +105,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="mt-16 sm:mt-20 md:mt-32 p-6 sm:p-8 md:p-10 bg-white rounded-[2rem] sm:rounded-[3rem] border border-[#F4C2C2]/20 flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8 shadow-sm hover:shadow-md transition-shadow">
+      <div class="mt-16 sm:mt-20 md:mt-32 p-6 sm:p-8 md:p-10 bg-white rounded-4xl border border-[#F4C2C2]/20 flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8 shadow-sm hover:shadow-md transition-shadow">
         <div class="flex items-center gap-4 sm:gap-6">
             <div class="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-[#FFF5F2] text-[#F4C2C2] rounded-full flex items-center justify-center text-xl sm:text-2xl md:text-3xl shadow-inner">
                 🌸

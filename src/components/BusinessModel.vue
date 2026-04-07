@@ -59,7 +59,7 @@ onMounted(() => {
       
       <div class="mb-16 sm:mb-20 md:mb-24">
         <div class="inline-flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
-          <div class="h-[1px] w-12 sm:w-16 md:w-20 bg-luby-gold"></div>
+          <div class="h-px w-12 sm:w-16 md:w-20 bg-luby-gold\"></div>
           <span class="text-luby-gold font-mono text-[10px] sm:text-xs tracking-[0.4em] uppercase">Plano de Ganhos</span>
         </div>
         <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-brielle leading-[1.1] mb-8 sm:mb-10 md:mb-12">
@@ -86,7 +86,7 @@ onMounted(() => {
 
           <div class="relative flex items-center justify-center md:justify-end">
              <div class="flex items-baseline font-brielle transition-all duration-500 group-hover:scale-105">
-                <span class="num-val text-6xl sm:text-7xl md:text-8xl lg:text-[11rem] leading-none text-transparent bg-clip-text bg-gradient-to-b from-gray-300 to-gray-500 group-hover:from-luby-gold group-hover:to-[#b8860b]">
+                <span class="num-val text-6xl sm:text-7xl md:text-8xl lg:text-[11rem] leading-none text-transparent bg-clip-text bg-linear-to-b from-gray-300 to-gray-500 group-hover:from-luby-gold group-hover:to-[#b8860b]">
                   0
                 </span>
                 <span class="text-3xl sm:text-4xl md:text-6xl text-luby-gold ml-1 sm:ml-2">%</span>

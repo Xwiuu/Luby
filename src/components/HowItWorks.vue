@@ -76,7 +76,7 @@ onMounted(() => {
           <h3 class="text-2xl md:text-3xl font-brielle text-gray-900 mb-6">Receba seu Acervo</h3>
           
           <div class="relative w-full aspect-video rounded-3xl overflow-hidden mb-8 shadow-xl border-4 border-white">
-            <img src="../assets/How.jpeg" alt="Mostruário Luby" class="w-full h-full object-cover">
+            <img src="../assets/How.png" alt="Mostruário Luby" class="w-full h-full object-cover">
           </div>
 
           <p class="text-gray-500 font-sans text-base md:text-lg leading-relaxed max-w-full md:max-w-md">

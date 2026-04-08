@@ -95,13 +95,13 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="mt-16 sm:mt-20 md:mt-24 flex flex-col items-center">
-        <button class="relative bg-[#1A1A1A] text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full font-bold text-base sm:text-lg flex items-center gap-3 sm:gap-4 transition-all hover:bg-luby-gold hover:text-white shadow-xl">
+<div class="mt-16 sm:mt-20 md:mt-24 flex flex-col items-center">
+        <a href="https://wa.me/555484249459?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20kit%20inicial%20e%20como%20ser%20uma%20revendedora%20Luby." target="_blank" class="relative bg-[#1A1A1A] text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full font-bold text-base sm:text-lg flex items-center gap-3 sm:gap-4 transition-all hover:bg-luby-gold hover:text-white shadow-xl">
           Falar com a nossa equipe
           <span class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 rounded-full bg-white text-black flex items-center justify-center text-sm sm:text-base">
             →
           </span>
-        </button>
+        </a>
         <p class="mt-4 sm:mt-6 text-gray-400 font-mono text-[9px] sm:text-[10px] uppercase tracking-widest">
           O kit inicial é uma curadoria exclusiva para garantir seu sucesso
         </p>

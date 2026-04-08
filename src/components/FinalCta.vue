@@ -79,26 +79,31 @@ onUnmounted(() => {
           <span class="italic font-light">brilho no futuro.</span>
         </h2>
 
-        <div class="relative group cursor-pointer inline-block">
-          <div class="absolute inset-0 rounded-full border border-[#F4C2C2]/50 scale-100 group-hover:scale-150 group-hover:opacity-0 transition-all duration-1000"></div>
-          <div class="absolute inset-0 rounded-full border border-luby-gold/30 scale-100 group-hover:scale-[2] group-hover:opacity-0 transition-all duration-[1.5s]"></div>
+     <div class="flex flex-col items-center w-full">
 
-          <button
-            class="relative bg-[#1A1A1A] text-white w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full font-bold text-lg sm:text-xl md:text-2xl flex flex-col items-center justify-center transition-all duration-700 group-hover:bg-luby-gold group-hover:scale-95 shadow-2xl"
-          >
-            <span class="relative z-10 mb-1 sm:mb-2 uppercase tracking-tighter text-sm sm:text-base">Quero ser</span>
-            <span class="relative z-10 font-brielle text-2xl sm:text-3xl md:text-4xl lg:text-5xl italic">Luby</span>
+          <div class="relative group cursor-pointer inline-block">
+            <div class="absolute inset-0 rounded-full border border-[#F4C2C2]/50 scale-100 group-hover:scale-150 group-hover:opacity-0 transition-all duration-1000"></div>
+            <div class="absolute inset-0 rounded-full border border-luby-gold/30 scale-100 group-hover:scale-[2] group-hover:opacity-0 transition-all duration-[1.5s]"></div>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 mt-3 sm:mt-4 transform group-hover:translate-y-2 transition-transform"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+            <a
+              href="https://wa.me/555484249459?text=Ol%C3%A1!%20Quero%20ser%20uma%20revendedora%20Luby%20e%20fazer%20parte%20desse%20sucesso!"
+              target="_blank"
+              class="relative bg-[#1A1A1A] text-white w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full font-bold text-lg sm:text-xl md:text-2xl flex flex-col items-center justify-center transition-all duration-700 group-hover:bg-luby-gold group-hover:scale-95 shadow-2xl"
             >
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </button>
+              <span class="relative z-10 mb-1 sm:mb-2 uppercase tracking-tighter text-sm sm:text-base">Quero ser</span>
+              <span class="relative z-10 font-brielle text-2xl sm:text-3xl md:text-4xl lg:text-5xl italic">Luby</span>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 mt-3 sm:mt-4 transform group-hover:translate-y-2 transition-transform"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </a>
+          </div>
         </div>
 
         <div class="mt-12 sm:mt-16 md:mt-20 lg:mt-24 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 md:gap-12">

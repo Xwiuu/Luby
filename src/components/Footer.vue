@@ -29,7 +29,7 @@ onMounted(() => {
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
       
-      <div class="footer-content flex flex-col items-center text-center mb-16 sm:mb-20 md:mb-24">
+    <div class="footer-content flex flex-col items-center text-center mb-16 sm:mb-20 md:mb-24">
         <h3
           class="text-gray-900 font-brielle text-2xl sm:text-3xl md:text-5xl mb-6 sm:mb-8 leading-tight"
         >
@@ -37,11 +37,13 @@ onMounted(() => {
           <span class="text-luby-gold italic font-light underline decoration-[#F4C2C2] decoration-1 underline-offset-8">nova fase de brilho?</span>
         </h3>
 
-        <button
-          class="group relative overflow-hidden bg-[#1A1A1A] text-white px-8 sm:px-10 md:px-12 py-3 sm:py-4 md:py-5 rounded-full font-bold tracking-widest transition-all duration-500 hover:bg-luby-gold hover:shadow-xl shadow-lg"
+        <a
+          href="https://wa.me/555484249459?text=Ol%C3%A1!%20Estou%20pronta%20para%20minha%20nova%20fase%20de%20brilho%20com%20a%20Luby!"
+          target="_blank"
+          class="group relative inline-block overflow-hidden bg-[#1A1A1A] text-white px-8 sm:px-10 md:px-12 py-3 sm:py-4 md:py-5 rounded-full font-bold tracking-widest transition-all duration-500 hover:bg-luby-gold hover:shadow-xl shadow-lg"
         >
           <span class="relative z-10 uppercase text-[10px] sm:text-xs">Fale com a nossa Equipe</span>
-        </button>
+        </a>
       </div>
 
       <div class="w-full h-px bg-gray-200 mb-8 sm:mb-10 md:mb-12"></div>

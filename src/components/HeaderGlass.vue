@@ -92,7 +92,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="mobile-overlay fixed inset-0 bg-white z-[120] -translate-y-full opacity-0 flex flex-col items-center justify-center gap-10 md:hidden pointer-events-auto">
+   <div class="mobile-overlay fixed inset-0 bg-white z-[120] -translate-y-full opacity-0 flex flex-col items-center justify-center gap-10 md:hidden pointer-events-auto">
       <button @click="toggleMenu" class="absolute top-10 right-10 text-4xl font-light">×</button>
       
       <a v-for="item in menuItems" 
@@ -103,9 +103,9 @@ onUnmounted(() => {
          {{ item.name }}
       </a>
       
-      <button @click="scrollToSection('#ganhos')" class="mt-4 bg-gray-950 text-white px-12 py-5 rounded-full font-bold uppercase text-xs tracking-[0.2em]">
+      <a href="https://wa.me/555484249459?text=Ol%C3%A1!%20Quero%20ser%20uma%20revendedora%20Luby." target="_blank" class="mt-4 bg-gray-950 inline-block text-white px-12 py-5 rounded-full font-bold uppercase text-xs tracking-[0.2em] hover:bg-luby-gold transition-colors">
         Quero ser Luby
-      </button>
+      </a>
     </div>
 
   </header>

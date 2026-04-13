@@ -38,7 +38,7 @@ onMounted(() => {
         </h3>
 
         <a
-          href="https://wa.me/555484249459?text=Ol%C3%A1!%20Estou%20pronta%20para%20minha%20nova%20fase%20de%20brilho%20com%20a%20Luby!"
+          href="https://api.whatsapp.com/send/?phone=555484249459&text=Ol%C3%A1%21+Vi+a+p%C3%A1gina+de+vendas+da+Luby+e+estou+pronta+para+come%C3%A7ar+minha+nova+fase+de+brilho%21&type=phone_number&app_absent=0"
           target="_blank"
           class="group relative inline-block overflow-hidden bg-[#1A1A1A] text-white px-8 sm:px-10 md:px-12 py-3 sm:py-4 md:py-5 rounded-full font-bold tracking-widest transition-all duration-500 hover:bg-luby-gold hover:shadow-xl shadow-lg"
         >

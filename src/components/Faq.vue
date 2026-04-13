@@ -115,7 +115,7 @@ onMounted(() => {
                 <p class="text-gray-500 text-sm sm:text-base">Nossa Equipe esta online para te ajudar agora.</p>
             </div>
         </div>
-        <a href="https://wa.me/555484249459?text=Ol%C3%A1!%20Tenho%20algumas%20d%C3%BAvidas%20sobre%20a%20revenda%20da%20Luby." target="_blank" class="bg-[#1A1A1A] text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full font-bold text-sm sm:text-base hover:bg-luby-gold transition-colors flex items-center gap-2 sm:gap-3 shadow-lg">
+        <a href="https://api.whatsapp.com/send/?phone=555484249459&text=Ol%C3%A1%21+Vi+a+p%C3%A1gina+de+vendas+da+Luby+e+estou+pronta+para+come%C3%A7ar+minha+nova+fase+de+brilho%21&type=phone_number&app_absent=0" target="_blank" class="bg-[#1A1A1A] text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full font-bold text-sm sm:text-base hover:bg-luby-gold transition-colors flex items-center gap-2 sm:gap-3 shadow-lg">
             Fale com a nossa equipe
             <span class="text-lg sm:text-xl">→</span>
         </a>

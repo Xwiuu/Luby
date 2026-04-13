@@ -86,7 +86,7 @@ onUnmounted(() => {
             <div class="absolute inset-0 rounded-full border border-luby-gold/30 scale-100 group-hover:scale-[2] group-hover:opacity-0 transition-all duration-[1.5s]"></div>
 
             <a
-              href="https://wa.me/555484249459?text=Ol%C3%A1!%20Quero%20ser%20uma%20revendedora%20Luby%20e%20fazer%20parte%20desse%20sucesso!"
+              href="https://api.whatsapp.com/send/?phone=555484249459&text=Ol%C3%A1%21+Vi+a+p%C3%A1gina+de+vendas+da+Luby+e+estou+pronta+para+come%C3%A7ar+minha+nova+fase+de+brilho%21&type=phone_number&app_absent=0"
               target="_blank"
               class="relative bg-[#1A1A1A] text-white w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full font-bold text-lg sm:text-xl md:text-2xl flex flex-col items-center justify-center transition-all duration-700 group-hover:bg-luby-gold group-hover:scale-95 shadow-2xl"
             >
